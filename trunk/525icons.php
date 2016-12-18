@@ -2,7 +2,7 @@
 /**
  * Plugin Name: RS 525icons
  * Plugin URI: https://wordpress.org/plugins/rs-525icons/
- * Description: With the 'RS 525icons' plugin, you can use shortcodes or HTML to add any icon from the '525icons web font', while editing text inside Wordpress.
+ * Description: With this plugin, you can use shortcodes or HTML to add any icon from the '525icons web font', while editing text in Wordpress.
  * Version: 1.0
  * Author: Rune Stromsted - @runestro
  * Author URI: http://css-design.no
