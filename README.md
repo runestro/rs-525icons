@@ -27,6 +27,10 @@ You may include following optional parameters, which adds inline styles to the H
 
 Default values for all selectors are 'empty', except: border-radius='0' and: border-color='black'.
 
+See Readme.txt for more styling options.
+
+== License ==
+
 License: GPLv2 
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
