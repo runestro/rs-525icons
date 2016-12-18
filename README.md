@@ -1,3 +1,6 @@
+﻿#[RS 525icons v1.0](http://525icons.com/plugin.html)
+###A free WordPress Plugin
+
 === RS 525icons ===
 Contributors: runestro
 Tags: 'font icons', 'icon font',525icons, symbols, logos, 'social icons', 'font awesome', icons.
