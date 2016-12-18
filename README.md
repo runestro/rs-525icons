@@ -37,3 +37,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 1.0
 * Initial Release
+
+
+##Author
+- Rune Strømsted, Norway
+
+- Email: runestro@gmail.com
+
+- Google+: https://plus.google.com/u/0/101311067909260493911/about
+
+- Twitter: http://twitter.com/@runestro
+
+- GitHub: https://github.com/runestro
