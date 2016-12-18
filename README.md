@@ -10,9 +10,6 @@ Find the names of your desired icons at http://525icons.com/glyphs.html.
 Shortcode syntax: [ico iname=""] Notice! Write "twitter" if you want "ico-twitter".
 eg. [ico iname="twitter"]
 
-Generated HTML will be:
-<i class="ux ico-twitter"></i> - which is the code needed to show the icon on the page.
-
 You may include following optional parameters, which adds inline styles to the HTML code:
 
 [ico isize="?" iborder="?" ibordercol="?" iradius="?" ipadding="?" imargin="?" icolor="?" ibg="?" ivalign="?"]
@@ -29,15 +26,12 @@ You may include following optional parameters, which adds inline styles to the H
 
 Default values for all selectors are 'empty', except: border-radius='0' and: border-color='black'.
 
-
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
-
 1.0
 * Initial Release
-
 
 ##Author
 - Rune Strømsted, Norway
