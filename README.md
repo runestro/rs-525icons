@@ -4,6 +4,7 @@
 With the 'RS 525icons plugin', you can use shortcodes or HTML to add any icon from the '525icons web font', while editing text inside Wordpress.
 
 == Description ==
+
 The 525icons css-file and font files are hosted at jsDelivr CDN, so this plugin is fast and lightweight. 
 Find the names of your desired icons at http://525icons.com/glyphs.html. 
 
@@ -27,6 +28,7 @@ You may include following optional parameters, which adds inline styles to the H
 Default values for all selectors are 'empty', except: border-radius='0' and: border-color='black'.
 
 License: GPLv2 
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
