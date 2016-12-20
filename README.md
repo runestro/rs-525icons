@@ -1,4 +1,4 @@
-﻿#[RS 525icons v1.0](http://525icons.com/plugin.html)
+﻿#[RS 525icons v1.0](https://wordpress.org/plugins/rs-525icons)
 ###A free WordPress Plugin
 
 With the 'RS 525icons plugin', you can use shortcodes or HTML to add any icon from the '525icons web font', while editing text inside Wordpress.
