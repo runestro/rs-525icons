@@ -68,7 +68,7 @@ For example, if you want an arrow pointing upwards, use 'rotate90', like this:
 
 The rotate classes are useful for arrows and mediaplayer icons. Check out: http://525icons.com/examples.html
 
-Take a look at /css/styles.css and http://525icons.com/fonts/525icons.css, for more styling options.
+Take a look at 'css/styles.css' and http://525icons.com/fonts/525icons.css, for more styling options.
 Below there is listed some of the style classes available:
 
 *Size classes:*
