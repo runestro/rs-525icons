@@ -7,8 +7,10 @@ With the 'RS 525icons plugin', you can use shortcodes or HTML to add any icon fr
 
 The 525icons css-file and font files are hosted at jsDelivr CDN, so this plugin is fast and lightweight. 
 Find the names of your desired icons at http://525icons.com/glyphs.html. 
+There you may click on any icon to copy its name to the clipboard. The 'ico-' prefix is omitted, as you need only the name for the shortcode. 
 
-Shortcode syntax: [ico iname=""] Notice! Write "twitter" if you want "ico-twitter".
+Shortcode syntax: [ico iname=""] 
+Notice! Write "twitter" if you want "ico-twitter".
 eg. [ico iname="twitter"]
 
 You may include following optional parameters, which adds inline styles to the HTML code:
@@ -36,10 +38,12 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
+
 1.0
 * Initial Release
 
 ##Author
+
 - Rune Strømsted, Norway
 
 - Email: runestro@gmail.com

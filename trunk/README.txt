@@ -1,6 +1,6 @@
 === RS 525icons ===
 Contributors: runestro
-Donate link: http://css-design.no
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2ZJB5NLFV85SA
 Tags: 'font icons', 'icon font', 'font awesome', 525icons, symbols, logos, 'social icons', icons.
 Requires at least: 3.8
 Tested up to: 4.7
@@ -13,6 +13,7 @@ With this plugin, you can use shortcodes or HTML to add any icon from the '525ic
 == Description ==
 The 525icons css-file and font files are hosted at jsDelivr CDN, so this plugin is fast and lightweight. 
 Find the names of your desired icons at http://525icons.com/glyphs.html. 
+There you may click on any icon to copy its name to the clipboard. The 'ico-' prefix is omitted, as you need only the name for the shortcode. 
 
 * Shortcode syntax: [ico iname=""] 
 * Notice! Write "twitter" if you want "ico-twitter".
@@ -39,13 +40,14 @@ Default values for all selectors are 'empty', except: border-radius='0' and: bor
 
 (The shortcode [ico] alone will generate a default icon, which is set to the 'ico-Wordpress'.)
 
-== Arbitrary section ==
+**Advanced options:**
 
-You may choose to write HTML code instead of shortcodes, like this:
-<pre><code><i class="ux ico-twitter 2x c-twitter"></i></code></pre> 
+In addition to the main css file, '525icons.min.css', the plugin utilizes the file 'css/styles.css'.
+where there is a set of classes with standard HTML color names, plus some size classes. 
+The class 'ispin', makes the icon spin infinitely, usable for spin and refresh icons.
 
-The plugin utilizes the css files 'css/styles.css' in addition to 'https://cdn.jsdelivr.net/525icons/3.2.0/525icons.min.css',
-where you will find a set of classes with standard css color names, plus size classes, eliminating the use of inline styles.
+
+*About classes and inline styles:*
 
 This shortcode:
 [icon iname="twitter" icolor="darkblue" isize="24px"] 
@@ -56,18 +58,20 @@ will generate inline styles like:
 While this shortcode:
 [icon iname="twitter darkblue xl"] 
 
-will generate following HTML-code:
-<pre><code><i class="ux ico-twitter darkblue xl"></i></code></pre> (calling up classnames in '525icons.css' plus 'styles.css').
+will generate following HTML-code, calling up classnames in the css files:
+<pre><code><i class="ux ico-twitter darkblue xl"></i></code></pre>
 
-If you use additional classes, you must add them after "iname" (must be inside the iname apostrophes - after space).
-For example, if you want an arrow pointing upwards (size 24px), use 'rotate90', like this:
+If you use additional classes, you must add them after 'name' (must be inside the iname apostrophes - after space).
+For example, if you want an arrow pointing upwards, use 'rotate90', like this:
 
-[icon iname="circle-arrow xl rotate90"] 
+[icon iname="circle-arrow rotate90"] 
 
-Se more inside 'css/styles.css' and 'http://525icons.com/fonts/525icons.css', for available classes.
-Here below is listed some of the style codes you will find:
+The rotate classes are useful for arrows and mediaplayer icons. Check out: http://525icons.com/examples.html
 
-Size classes:
+Take a look at /css/styles.css and http://525icons.com/fonts/525icons.css, for more styling options.
+Below there is listed some of the style classes available:
+
+*Size classes:*
 
 * .lg (font-size: 1.33333333em)
 * .xl (font-size: 24px)
@@ -81,14 +85,14 @@ Size classes:
 * .i9x (font-size: 144px)
 * .i10x (font-size: 160px)
 
-Border radius (px):
+*Border radius (set as px):*
 
 * .radius6
 * .radius8
 * .radius12
 * .radius36
 
-Rotate classes - useful for arrows and mediaplayer icons. Check out http://525icons/examples.html:
+*Rotate classes:*
 
 * .rotate45
 * .rotate90
@@ -97,6 +101,9 @@ Rotate classes - useful for arrows and mediaplayer icons. Check out http://525ic
 * .rotate225 
 * .rotate270
 * .rotate315 
+
+You may choose to write HTML code instead of shortcodes, like this:
+<pre><code><i class="ux ico-twitter i2x blue"></i></code></pre> 
 
 == Installation ==
 1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
