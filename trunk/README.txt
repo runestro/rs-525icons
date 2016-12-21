@@ -1,7 +1,7 @@
 === RS 525icons ===
 Contributors: runestro
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2ZJB5NLFV85SA
-Tags: 'font icons', 'icon font', 'font awesome', 525icons, symbols, logos, 'social icons', icons.
+Tags: 525icons, font, font icon, font-awesome, fontello, fonticon, genericon, genericons, glyph, glyphicons, ico, icomoon, icon, icon stack, iconfont, iconic, icons, svg, svg font icon, ui, ux, vector, webfont
 Requires at least: 3.8
 Tested up to: 4.7
 Stable tag: trunk
@@ -22,7 +22,7 @@ There you may click on any icon to copy its name to the clipboard. The 'ico-' pr
 Generated HTML will be:
 <pre><code><i class="ux ico-twitter"></i></code></pre> which is the code needed to show the icon on the page.
 
-You may include following optional parameters, which adds inline styles to the HTML code:
+You may include following optional parameters, which will add inline styles to the HTML code:
 
 [ico isize="?" iborder="?" ibordercol="?" iradius="?" ipadding="?" imargin="?" icolor="?" ibg="?" ivalign="?"]
 
@@ -42,10 +42,9 @@ Default values for all selectors are 'empty', except: border-radius='0' and: bor
 
 **Advanced options:**
 
-In addition to the main css file, '525icons.min.css', the plugin utilizes the file 'css/styles.css'.
+In addition to the main css file, '525icons.min.css', the plugin utilizes the file 'css/styles.css',
 where there is a set of classes with standard HTML color names, plus some size classes. 
 The class 'ispin', makes the icon spin infinitely, usable for spin and refresh icons.
-
 
 *About classes and inline styles:*
 
@@ -53,23 +52,24 @@ This shortcode:
 [icon iname="twitter" icolor="darkblue" isize="24px"] 
 
 will generate inline styles like:
-<pre><code><i class="ux ico-twitter" style="font-size:24px;color:darkblue"></i></code></pre> 
+<pre><code><i class="ux ico-twitter" style="font-size:24px;color:darkblue"></i></code></pre>
 
-While this shortcode:
+while this shortcode:
 [icon iname="twitter darkblue xl"] 
 
 will generate following HTML-code, calling up classnames in the css files:
 <pre><code><i class="ux ico-twitter darkblue xl"></i></code></pre>
 
 If you use additional classes, you must add them after 'name' (must be inside the iname apostrophes - after space).
-For example, if you want an arrow pointing upwards, use 'rotate90', like this:
+For example, if you want an arrow pointing upwards, use 'rotate90':
 
 [icon iname="circle-arrow rotate90"] 
 
 The rotate classes are useful for arrows and mediaplayer icons. Check out: http://525icons.com/examples.html
 
 Take a look at 'css/styles.css' and http://525icons.com/fonts/525icons.css, for more styling options.
-Below there is listed some of the style classes available:
+
+Here are some of the available style classes:
 
 *Size classes:*
 
