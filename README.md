@@ -42,6 +42,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 1.0
 * Initial Release
 
+1.1
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.3.0
+
+1.2
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.4.0
+
+1.3
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.5.0
+
+1.4
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.6.0
+
 ##Author
 
 - Rune Strømsted, Norway

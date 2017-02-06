@@ -124,7 +124,32 @@ Support Email: runestro@gmail.com
 1.0
 * Initial Release
 
+1.1
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.3.0
+
+1.2
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.4.0
+
+1.3
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.5.0
+
+1.4
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v3.6.0
+
+
 == Upgrade Notice ==
  
- 1.0
+1.0
 * Initial Release
+
+1.1
+* The latest version of 525icons, v3.3.0, has some new logos and icons, among them: Kakaotalk, Telegram, Docs.com and a smartwatch icon. http://525icons.com/glyphs.html
+
+1.2
+* The latest version of 525icons, v3.4.0, has some new logos and icons, among them: IMBd logo, podcast icon, and some redesign og other logos. http://525icons.com/glyphs.html
+
+1.3
+* The latest version of 525icons, v3.5.0, has only minor improvement and css bug fix - http://525icons.com/glyphs.html
+
+1.4
+* 525icons v3.6 update: New activity icons: walking, running, cycling, trekking, swimming and some international symbols added. - http://525icons.com/glyphs.html

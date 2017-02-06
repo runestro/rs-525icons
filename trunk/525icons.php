@@ -3,7 +3,7 @@
  * Plugin Name: RS 525icons
  * Plugin URI: https://wordpress.org/plugins/rs-525icons/
  * Description: With this plugin, you can use shortcodes or HTML to add any icon from the '525icons web font', while editing text in Wordpress.
- * Version: 1.0
+ * Version: 1.4
  * Author: Rune Stromsted - @runestro
  * Author URI: http://css-design.no
  * Text Domain: rs-525icons
@@ -30,9 +30,9 @@ https://www.gnu.org/licenses/gpl-2.0.html.
 
 //include 525icons cdn
 //find latest version of the font files and css at: https://www.jsdelivr.com/projects/525icons.
-//change version number in the URL, in the line below, if you want to use the latest version.
+//change version number in the URI, at the line below, if you want to use the latest version.
 
-wp_register_style('rs_525_cdn_icons', 'https://cdn.jsdelivr.net/525icons/3.2.0/525icons.min.css', array() );
+wp_register_style('rs_525_cdn_icons', 'https://cdn.jsdelivr.net/525icons/3.6.0/525icons.min.css', array() );
 wp_enqueue_style('rs_525_cdn_icons');
 
 /* Plugin Root dir */
