@@ -1,5 +1,5 @@
-﻿#[RS 525icons v1.0](https://wordpress.org/plugins/rs-525icons)
-###A free WordPress Plugin
+# [RS 525icons v1.0](https://wordpress.org/plugins/rs-525icons)
+### A free WordPress Plugin
 
 With the 'RS 525icons plugin', you can use shortcodes or HTML to add any icon from the '525icons web font', while editing text inside Wordpress.
 
@@ -54,7 +54,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 1.4
 * Updated link pointing to the the latest version of 525icons at JsDelivr: v3.6.0
 
-##Author
+1.5
+* Updated link pointing to the the latest version of 525icons at JsDelivr: v4.0
+* Plugin update: 525icons.php adds: aria-hidden="true" to the markup for accessibility reasons.
+
+
+== Upgrade Notice ==
+ 
+1.0
+Initial Release
+
+1.1
+The latest version of 525icons, v3.3.0, has some new logos and icons, among them: Kakaotalk, Telegram, Docs.com and a smartwatch icon. http://525icons.com/glyphs.html
+
+1.2
+The latest version of 525icons, v3.4.0, has some new logos and icons, among them: IMBd logo, podcast icon, and some redesign og other logos. http://525icons.com/glyphs.html
+
+1.3
+The latest version of 525icons, v3.5.0, has only minor improvement and css bug fix - http://525icons.com/glyphs.html
+
+1.4
+525icons v3.6 update: New activity icons: walking, running, cycling, trekking, swimming and some international symbols added. - http://525icons.com/glyphs.html
+
+1.5
+525icons v4.0 update: 30 new icons. Plugin update: 525icons.php adds: aria-hidden="true" to the markup for accessibility reasons.
+
+## Author
 
 - Rune Strømsted, Norway
 
